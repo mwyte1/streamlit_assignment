@@ -3,6 +3,8 @@ import random
 import altair as alt
 import numpy as np
 import pandas as pd
+import pip
+pip.main(["install", "openpyxl"])
 
 top_five = pd.read_excel("Final Spreadsheet Compilation.xlsx")
 
